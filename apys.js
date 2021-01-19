@@ -231,7 +231,7 @@ const API_URL = 'https://api.mdex.com'
 const moment = require('moment'); // require
 const tokens = {
   '0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047': 'HUSD',
-  '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f': 'HT',
+  '0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F': 'HT',
   '0x64FF637fB478863B7468bc97D30a5bF3A428a1fD': 'ETH',
   '0xa71EdC38d189767582C38A3145b5873052c3e47a': 'USDT',
   '0x66a79D23E58475D2738179Ca52cd0b41d73f0BEa': 'HBTC',
