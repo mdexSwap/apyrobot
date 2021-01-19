@@ -171,8 +171,8 @@ const calculateCoin = async(lpAddresses, tokenSymbol, pid) => {
       console.log(tokenSymbol, 'get price', error)
     }
     return {
-      totalUsdtValue: totalValue/Math.pow(10, decimal)*price/Math.pow(10, decimal),
-      tokenPriceInUsdt: price/Math.pow(10, decimal),
+      totalUsdtValue: totalValue/Math.pow(10, decimal)*price/Math.pow(10, 18),
+      tokenPriceInUsdt: price/Math.pow(10, 18),
       poolWeight: await getPoolWeight(pid)
     }
   }
@@ -187,7 +187,7 @@ const calculateLp = async(lpAddresses, tokenAddresses, tokenSymbol, pid) => {
   const decimal = await currentLpContract.methods.decimals().call()
   let price = 0
   try {
-      price = await orcalContract.methods.consult(tokenAddresses, String(decimal*Math.pow(10, decimal)), usdtAddress).call()
+      price = await orcalContract.methods.consult(tokenAddresses, String(Math.pow(10, decimal)), usdtAddress).call()
   } catch (error) {
       console.log(tokenSymbol, 'get price', error)
   }
@@ -197,8 +197,8 @@ const calculateLp = async(lpAddresses, tokenAddresses, tokenSymbol, pid) => {
   const totalAmount = tokenAmount*portionLp/Math.pow(10, decimal)
   const poolWeight = await getPoolWeight(pid)
   return {
-      totalUsdtValue: totalAmount*price/Math.pow(10, decimal)*2,
-      tokenPriceInUsdt: price/Math.pow(10, decimal),
+      totalUsdtValue: totalAmount*price/Math.pow(10, 18)*2,
+      tokenPriceInUsdt: price/Math.pow(10, 18),
       poolWeight
     }
 }
