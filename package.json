@@ -1,0 +1,16 @@
+{
+  "name": "apy-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lowdb": "^1.0.0",
+    "web3": "^1.3.1"
+  }
+}
