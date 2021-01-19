@@ -228,7 +228,7 @@ getCoinsInfo()
 //
 const axios = require('axios')
 const API_URL = 'https://api.mdex.com'
-
+const moment = require('moment'); // require
 const tokens = {
   '0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047': 'HUSD',
   '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f': 'HT',
@@ -249,6 +249,7 @@ const getApy = async() => {
     list.data.result.forEach(val => {
       db.get('minging').push({...val, apy: apys.data.result[val.pool_id], symbol0: tokens[val.token0], symbol1: tokens[val.token1]}).write()
     })
+    db.set('time', moment().format()).write()
   }
 }
 getApy()
