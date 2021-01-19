@@ -171,8 +171,8 @@ const calculateCoin = async(lpAddresses, tokenSymbol, pid) => {
       console.log(tokenSymbol, 'get price', error)
     }
     return {
-      totalUsdtValue: totalValue/Math.pow(10, decimal)*price/Math.pow(10, 18),
-      tokenPriceInUsdt: price/Math.pow(10, 18),
+      totalUsdtValue: totalValue/Math.pow(10, decimal)*price/Math.pow(10, decimal),
+      tokenPriceInUsdt: price/Math.pow(10, decimal),
       poolWeight: await getPoolWeight(pid)
     }
   }
@@ -198,7 +198,7 @@ const calculateLp = async(lpAddresses, tokenAddresses, tokenSymbol, pid) => {
   const poolWeight = await getPoolWeight(pid)
   return {
       totalUsdtValue: totalAmount*price/Math.pow(10, decimal)*2,
-      tokenPriceInUsdt: price/Math.pow(10, 18),
+      tokenPriceInUsdt: price/Math.pow(10, decimal),
       poolWeight
     }
 }
