@@ -249,7 +249,8 @@ const getApy = async() => {
     list.data.result.forEach(val => {
       db.get('minging').push({...val, apy: apys.data.result[val.pool_id], symbol0: tokens[val.token0], symbol1: tokens[val.token1]}).write()
     })
-    db.set('time', moment().format()).write()
+    const time = new Date().getTime()
+    db.set('time', moment(time).utcOffset(8).format('YYYY-MM-DD HH:mm')).write()
   }
 }
 getApy()
