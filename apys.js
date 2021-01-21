@@ -120,6 +120,20 @@ const coins = [
     symbol: 'WHT/HUSD',
     islp: true
   },
+  {
+    pid: 17,
+    lpAddresses: '0x499B6E03749B4bAF95F9E70EeD5355b138EA6C31', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'WHT/USDT',
+    islp: true
+  },
+  {
+    pid: 18,
+    lpAddresses: '0xdE5b574925EE475c41b99a7591EC43E92dCD2fc1', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0xe499ef4616993730ced0f31fa2703b92b50bb536', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'HPT/USDT',
+    islp: true
+  }
 ]
 const hecoAddress = 'https://http-mainnet-node.huobichain.com'
 
