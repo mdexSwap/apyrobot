@@ -133,7 +133,14 @@ const coins = [
     tokenAddresses: '0xe499ef4616993730ced0f31fa2703b92b50bb536', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
     symbol: 'HPT/USDT',
     islp: true
-  }
+  },
+  {
+    pid: 19,
+    lpAddresses: '0x6Dd2993B50b365c707718b0807fC4e344c072eC2', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'MDX/WHT',
+    islp: true
+  },
 ]
 const hecoAddress = 'https://http-mainnet-node.huobichain.com'
 
