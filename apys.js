@@ -184,7 +184,7 @@ const orcalContract = new provider.eth.Contract(oracleAbi, oracleAddress)
 const chefContract = new provider.eth.Contract(chefAbi, chefAddress)
 //
 const BLOCKS_PER_YEAR = 10512000
-const SUSHI_PER_BLOCK = 40
+const SUSHI_PER_BLOCK = 30
 
 const getPoolWeight = async (pid) => {
   const { allocPoint } = await chefContract.methods.poolInfo(pid).call();
@@ -282,10 +282,10 @@ const tokens = {
   '0xecb56cf772B5c9A6907FB7d32387Da2fCbfB63b4': 'HLTC',
   '0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375': 'HBCH',
   "0xE499Ef4616993730CEd0f31FA2703B92B50bB536": "HPT",
-  '0xae3a768f9ab104c69a7cd6041fe16ffa235d1810': 'HFIL',
-  '0x202b4936fe1a82a4965220860ae46d7d3939bb25': 'AAVE',
-  '0x777850281719d5a96c29812ab72f822e0e09f3da': 'SNX',
-  '0x22c54ce8321a4015740ee1109d9cbc25815c46e6': 'UNI',
+  '0xae3a768f9aB104c69A7CD6041fE16fFa235d1810': 'HFIL',
+  '0x202b4936fE1a82A4965220860aE46d7d3939Bb25': 'AAVE',
+  '0x777850281719d5a96C29812ab72f822E0e09F3Da': 'SNX',
+  '0x22C54cE8321A4015740eE1109D9cBc25815C46E6': 'UNI',
 }
 const getApy = async() => {
   const list = await axios.get(`${API_URL}/pool/list`)
