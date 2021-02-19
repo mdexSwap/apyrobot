@@ -1,63 +1,6 @@
 // 类型, 池子， 锁仓/交易额, 日化
 const coins = [
   {
-    pid: 0,
-    lpAddresses: '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'WHT',
-    islp: false
-  },
-  {
-    pid: 1,
-    lpAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'HBTC',
-    islp: false
-  },
-  {
-    pid: 2,
-    lpAddresses: '0x0298c2b32eae4da002a15f36fdf7615bea3da047', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0x0298c2b32eae4da002a15f36fdf7615bea3da047', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'HUSD',
-    islp: false
-  },
-  {
-    pid: 3,
-    lpAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'ETH',
-    decimal: 18,
-    islp: false
-  },
-  {
-    pid: 4,
-    lpAddresses: '0xa71edc38d189767582c38a3145b5873052c3e47a', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0xa71edc38d189767582c38a3145b5873052c3e47a', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'USDT',
-    islp: false
-  },
-  {
-    pid: 5,
-    lpAddresses: '0xef3cebd77e0c52cb6f60875d9306397b5caca375', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0xef3cebd77e0c52cb6f60875d9306397b5caca375', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'HBCH',
-    islp: false
-  },
-  {
-    pid: 6,
-    lpAddresses: '0xa2c49cee16a5e5bdefde931107dc1fae9f7773e3', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0xa2c49cee16a5e5bdefde931107dc1fae9f7773e3', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'HDOT',
-    islp: false
-  },
-  {
-    pid: 7,
-    lpAddresses: '0xecb56cf772b5c9a6907fb7d32387da2fcbfb63b4', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
-    tokenAddresses: '0xecb56cf772b5c9a6907fb7d32387da2fcbfb63b4', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
-    symbol: 'HLTC',
-    islp: false
-  },
-  {
     pid: 8,
     lpAddresses: '0xFBe7b74623e4be82279027a286fa3A5b5280F77c', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
     tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
@@ -139,6 +82,83 @@ const coins = [
     lpAddresses: '0x6Dd2993B50b365c707718b0807fC4e344c072eC2', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
     tokenAddresses: '0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
     symbol: 'MDX/WHT',
+    islp: true
+  },
+  {
+    pid: 21,
+    lpAddresses: '0x7964e55bbdaecde48c2c8ef86e433ed47fecb519', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0xe36ffd17b2661eb57144ceaef942d95295e637f0', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'FILDA/HUSD',
+    islp: true
+  },
+  {
+    pid: 22,
+    lpAddresses: '0x023f375a51af8645d7446ba5942baedc53b0582d', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x8f67854497218043e1f72908ffe38d0ed7f24721', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'LHB/USDT',
+    islp: true
+  },
+  {
+    pid: 23,
+    lpAddresses: '0xfAfeAafeFc5F92F22415506e78D9AB1E33C03257', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x202b4936fe1a82a4965220860ae46d7d3939bb25', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'AAVE/USDT',
+    islp: true
+  },
+  {
+    pid: 24,
+    lpAddresses: '0xc7A4C808a29fc8Cd3A8a6848f7F18bED9924C692', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x777850281719d5a96c29812ab72f822e0e09f3da', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'SNX/USDT',
+    islp: true
+  },
+  {
+    pid: 25,
+    lpAddresses: '0x84455d880af684eb29997B82832dd71EF29c1354', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x22c54ce8321a4015740ee1109d9cbc25815c46e6', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'UNI/USDT',
+    islp: true
+  },
+  {
+    pid: 26,
+    lpAddresses: '0x52a342015BAa2496A90A9bB6069D7692564132e6', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x9e004545c59d359f6b7bfb06a26390b087717b42', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'LINK/USDT',
+    islp: true
+  },
+  {
+    pid: 27,
+    lpAddresses: '0xB6A77CDD31771A4F439622aA36b20cb53C19868C', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x045de15ca76e76426e8fc7cba8392a3138078d0f', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'BAL/USDT',
+    islp: true
+  },
+  {
+    pid: 28,
+    lpAddresses: '0x64Af3564C6D6BEc5883358c560211EcD0f8d1AC7', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0xb4f019beac758abbee2f906033aaa2f0f6dacb35', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'YFI/USDT',
+    islp: true
+  },
+  {
+    pid: 29,
+    lpAddresses: '0xBFff969A85e355eE0851b019Dba1e87C7780F40d', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'HBTC/WHT',
+    islp: true
+  },
+  {
+    pid: 30,
+    lpAddresses: '0x53E458aD1CFEB9582736db6BdE9aF89948e3bc3d', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'ETH/WHT',
+    islp: true
+  },
+  {
+    pid: 31,
+    lpAddresses: '0x793c2a814e23EE38aB46412Be65E94Fe47D4B397', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'HBTC/ETH',
     islp: true
   },
 ]
@@ -261,7 +281,11 @@ const tokens = {
   '0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3': 'HDOT',
   '0xecb56cf772B5c9A6907FB7d32387Da2fCbfB63b4': 'HLTC',
   '0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375': 'HBCH',
-  "0xE499Ef4616993730CEd0f31FA2703B92B50bB536": "HPT"
+  "0xE499Ef4616993730CEd0f31FA2703B92B50bB536": "HPT",
+  '0xae3a768f9ab104c69a7cd6041fe16ffa235d1810': 'HFIL',
+  '0x202b4936fe1a82a4965220860ae46d7d3939bb25': 'AAVE',
+  '0x777850281719d5a96c29812ab72f822e0e09f3da': 'SNX',
+  '0x22c54ce8321a4015740ee1109d9cbc25815c46e6': 'UNI',
 }
 const getApy = async() => {
   const list = await axios.get(`${API_URL}/pool/list`)
