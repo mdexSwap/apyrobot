@@ -161,6 +161,20 @@ const coins = [
     symbol: 'HBTC/ETH',
     islp: true
   },
+  {
+    pid: 32,
+    lpAddresses: '0x2Fb4bE0F2785bD6009A383f3290CC97A4e3bD46B', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'HBTC/MDX',
+    islp: true
+  },
+  {
+    pid: 33,
+    lpAddresses: '0xb55569893b397324c0d048c9709F40c23445540E', // lpAddresses 统一用来查询余额，lp的话填写lp地址，单币的填币种地址
+    tokenAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd', // tokenAddresses,单币的话不需要，lp填要获取价格的币种地址
+    symbol: 'ETH/MDX',
+    islp: true
+  },
 ]
 const hecoAddress = 'https://http-mainnet-node.huobichain.com'
 
@@ -184,7 +198,7 @@ const orcalContract = new provider.eth.Contract(oracleAbi, oracleAddress)
 const chefContract = new provider.eth.Contract(chefAbi, chefAddress)
 //
 const BLOCKS_PER_YEAR = 10512000
-const SUSHI_PER_BLOCK = 30
+const SUSHI_PER_BLOCK = 27.3
 
 const getPoolWeight = async (pid) => {
   const { allocPoint } = await chefContract.methods.poolInfo(pid).call();
