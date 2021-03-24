@@ -5,11 +5,11 @@
       "pool_id": 0,
       "token0": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
       "token1": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
-      "alloc_mdx_amt": "46378811892902093984362",
-      "total_quantity": "14969167242215371324801268058",
-      "pool_quantity": "53215862775452369045579831",
+      "alloc_mdx_amt": "46033779843915527937462",
+      "total_quantity": "14970493943966684229305851573",
+      "pool_quantity": "53239063426958953658542919",
       "alloc_point": "1157",
-      "apy": "383.56470433704345",
+      "apy": "385.5617831912752",
       "symbol0": "HUSD",
       "symbol1": "HT"
     },
@@ -18,11 +18,11 @@
       "pool_id": 1,
       "token0": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "22414992536589330792416",
-      "total_quantity": "15845592953937665868760688588",
-      "pool_quantity": "25889306633827454382109937",
+      "alloc_mdx_amt": "22290238777116755406783",
+      "total_quantity": "15846871635290292050876846257",
+      "pool_quantity": "26050804074086514645390093",
       "alloc_point": "1253",
-      "apy": "853.5700285114406",
+      "apy": "854.0478703781143",
       "symbol0": "ETH",
       "symbol1": "USDT"
     },
@@ -31,11 +31,11 @@
       "pool_id": 2,
       "token0": "0x66a79D23E58475D2738179Ca52cd0b41d73f0BEa",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "64608924368087559433407",
-      "total_quantity": "15842054132619315070223449120",
-      "pool_quantity": "74716544710435707878545782",
+      "alloc_mdx_amt": "64247902753695846069702",
+      "total_quantity": "15843570272525178118314576067",
+      "pool_quantity": "74896127583770611523155458",
       "alloc_point": "1253",
-      "apy": "296.12096329464686",
+      "apy": "296.19954371744143",
       "symbol0": "HBTC",
       "symbol1": "USDT"
     },
@@ -44,11 +44,11 @@
       "pool_id": 3,
       "token0": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "118330736089509000147860",
-      "total_quantity": "39184246383494977683250728349",
-      "pool_quantity": "136706550871834189660758955",
+      "alloc_mdx_amt": "115905642406888368304590",
+      "total_quantity": "39189482174448132079375582079",
+      "pool_quantity": "136807348964712431804194293",
       "alloc_point": "2990",
-      "apy": "385.7066393039048",
+      "apy": "386.4135664705351",
       "symbol0": "HUSD",
       "symbol1": "USDT"
     },
@@ -57,9 +57,9 @@
       "pool_id": 4,
       "token0": "0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "122089681158240308891785",
-      "total_quantity": "4135326080191828810390745308",
-      "pool_quantity": "148162538586403552278992113",
+      "alloc_mdx_amt": "120940903314526621064349",
+      "total_quantity": "4137705460999094192929458619",
+      "pool_quantity": "148928970016289505887728824",
       "alloc_point": "257",
       "apy": "30.599560074385753",
       "symbol0": "MDX",
@@ -70,11 +70,11 @@
       "pool_id": 5,
       "token0": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
       "token1": "0xa042fb0e60125A4022670014AC121931e7501Af4",
-      "alloc_mdx_amt": "39235134008087016878208",
-      "total_quantity": "1109237585912307949619062686",
-      "pool_quantity": "44858309971168459709526141",
+      "alloc_mdx_amt": "38843090109263980983901",
+      "total_quantity": "1109753037226878921806134378",
+      "pool_quantity": "44866597656647610938265652",
       "alloc_point": "74",
-      "apy": "29.052405876850028",
+      "apy": "29.234688437159118",
       "symbol0": "HUSD",
       "symbol1": "BAG"
     },
@@ -83,9 +83,9 @@
       "pool_id": 6,
       "token0": "0x66a79D23E58475D2738179Ca52cd0b41d73f0BEa",
       "token1": "0xa042fb0e60125A4022670014AC121931e7501Af4",
-      "alloc_mdx_amt": "12357743189684985755725",
-      "total_quantity": "982735415600299233547075728",
-      "pool_quantity": "14183766094207957775039395",
+      "alloc_mdx_amt": "12210129581375404685601",
+      "total_quantity": "982963448545674465541356863",
+      "pool_quantity": "14184230963523591398708062",
       "alloc_point": "74",
       "apy": "91.61509693466073",
       "symbol0": "HBTC",
@@ -96,11 +96,11 @@
       "pool_id": 7,
       "token0": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "3637828728606892556156",
-      "total_quantity": "3343502752771674208364039484",
-      "pool_quantity": "4195518270326606120873608",
+      "alloc_mdx_amt": "3579557501910382676089",
+      "total_quantity": "3343773906301542413681063241",
+      "pool_quantity": "4173533986738606046965495",
       "alloc_point": "289",
-      "apy": "1214.3752265145322",
+      "apy": "1228.0635880809255",
       "symbol0": "HDOT",
       "symbol1": "USDT"
     },
@@ -109,11 +109,11 @@
       "pool_id": 8,
       "token0": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
       "token1": "0xecb56cf772B5c9A6907FB7d32387Da2fCbfB63b4",
-      "alloc_mdx_amt": "3864944119049280233863",
-      "total_quantity": "3423932187141373309360831285",
-      "pool_quantity": "4460507288233815530121080",
+      "alloc_mdx_amt": "3871372171067251212551",
+      "total_quantity": "3424208213544437042058115244",
+      "pool_quantity": "4510511206672936884941797",
       "alloc_point": "322",
-      "apy": "1282.1906311651564",
+      "apy": "1261.7236668611042",
       "symbol0": "USDT",
       "symbol1": "HLTC"
     },
@@ -122,11 +122,11 @@
       "pool_id": 9,
       "token0": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
       "token1": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375",
-      "alloc_mdx_amt": "3432834059642231716506",
-      "total_quantity": "3365360448505607505042673679",
-      "pool_quantity": "3955038170191254699708127",
+      "alloc_mdx_amt": "3414678058425721070328",
+      "total_quantity": "3365621956832886504018838020",
+      "pool_quantity": "3981982309489914213104940",
       "alloc_point": "285",
-      "apy": "1277.0873489486232",
+      "apy": "1270.9286032726607",
       "symbol0": "USDT",
       "symbol1": "HBCH"
     },
@@ -135,11 +135,11 @@
       "pool_id": 10,
       "token0": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
       "token1": "0xE499Ef4616993730CEd0f31FA2703B92B50bB536",
-      "alloc_mdx_amt": "3468638714053959337251",
-      "total_quantity": "494393947243072177660595177",
-      "pool_quantity": "4013071440474377032843565",
+      "alloc_mdx_amt": "3448832498230086572810",
+      "total_quantity": "494465719115587182627153828",
+      "pool_quantity": "4033367569643866679724358",
       "alloc_point": "37",
-      "apy": "162.64958231158934",
+      "apy": "162.6842990068517",
       "symbol0": "USDT",
       "symbol1": "HPT"
     },
@@ -148,11 +148,11 @@
       "pool_id": 11,
       "token0": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "124658913486304044484059",
-      "total_quantity": "8373605036553611011776039183",
-      "pool_quantity": "147003158022229875619110482",
+      "alloc_mdx_amt": "123795649925121016916971",
+      "total_quantity": "8376212500432467701838744418",
+      "pool_quantity": "147941360774957010036549523",
       "alloc_point": "792",
-      "apy": "95.04181849290525",
+      "apy": "94.9098156977359",
       "symbol0": "HT",
       "symbol1": "USDT"
     },
@@ -161,11 +161,11 @@
       "pool_id": 12,
       "token0": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
       "token1": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
-      "alloc_mdx_amt": "3497437942684475588893",
-      "total_quantity": "4497126679222192919834526823",
-      "pool_quantity": "4038486955392796502614500",
+      "alloc_mdx_amt": "3492395679452724921673",
+      "total_quantity": "4497499969946353523137226713",
+      "pool_quantity": "4070624986809332711554105",
       "alloc_point": "447",
-      "apy": "1967.4717595726333",
+      "apy": "1949.3530574456295",
       "symbol0": "USDT",
       "symbol1": "HFIL"
     },
@@ -174,11 +174,11 @@
       "pool_id": 13,
       "token0": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "325771246398019057032",
-      "total_quantity": "530603543065351592593162057",
-      "pool_quantity": "372611710559948151739433",
+      "alloc_mdx_amt": "321894887434713716357",
+      "total_quantity": "530652408299165466765385996",
+      "pool_quantity": "375426201463494368132304",
       "alloc_point": "53",
-      "apy": "2486.023332901255",
+      "apy": "2507.378082759545",
       "symbol0": "AAVE",
       "symbol1": "USDT"
     },
@@ -187,11 +187,11 @@
       "pool_id": 14,
       "token0": "0x777850281719d5a96C29812ab72f822E0e09F3Da",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "195171741962855663842",
-      "total_quantity": "530953064650592729846555269",
-      "pool_quantity": "222552636293383849100307",
+      "alloc_mdx_amt": "192317872290834145818",
+      "total_quantity": "530998188144027160679435479",
+      "pool_quantity": "222565771551630565279800",
       "alloc_point": "53",
-      "apy": "4179.293894750677",
+      "apy": "4222.034464820872",
       "symbol0": "SNX",
       "symbol1": "USDT"
     },
@@ -200,11 +200,11 @@
       "pool_id": 15,
       "token0": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6",
       "token1": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
-      "alloc_mdx_amt": "3535392400963095149110",
-      "total_quantity": "537066686707634745296447437",
-      "pool_quantity": "4210637531762867270366205",
+      "alloc_mdx_amt": "3568111824082741295854",
+      "total_quantity": "537091415357322084057964937",
+      "pool_quantity": "4231458610615776768331568",
       "alloc_point": "53",
-      "apy": "222.37640391610032",
+      "apy": "222.34825697876312",
       "symbol0": "UNI",
       "symbol1": "USDT"
     },
@@ -213,11 +213,11 @@
       "pool_id": 16,
       "token0": "0x25D2e80cB6B86881Fd7e07dd263Fb79f4AbE033c",
       "token1": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
-      "alloc_mdx_amt": "25204415074967661144804",
-      "total_quantity": "5468018363392855913299651328",
-      "pool_quantity": "29327690389011889937644339",
+      "alloc_mdx_amt": "24927824317616580312313",
+      "total_quantity": "5468847950054151616480520368",
+      "pool_quantity": "29350781368976174516445656",
       "alloc_point": "611",
-      "apy": "366.8017713583882",
+      "apy": "367.9217022000503",
       "symbol0": "MDX",
       "symbol1": "HT"
     }
@@ -225,180 +225,180 @@
   "single": [],
   "lps": [
     {
-      "totalUsdtValue": 349559650.67175823,
-      "tokenPriceInUsdt": 54580.17340076846,
+      "totalUsdtValue": 348511201.8886296,
+      "tokenPriceInUsdt": 54522.72090131699,
       "poolWeight": 0.1179,
       "symbol": "HBTC/USDT",
-      "apy": 33.259582480355014
+      "apy": 33.526953552054536
     },
     {
-      "totalUsdtValue": 241455689.8586694,
-      "tokenPriceInUsdt": 1681.7146937231792,
+      "totalUsdtValue": 241432212.1555919,
+      "tokenPriceInUsdt": 1680.8765177911694,
       "poolWeight": 0.1048,
       "symbol": "ETH/USDT",
-      "apy": 42.800429125439834
+      "apy": 43.01927613558838
     },
     {
-      "totalUsdtValue": 124510004.27290241,
-      "tokenPriceInUsdt": 1.0010730036848647,
+      "totalUsdtValue": 124319227.40840234,
+      "tokenPriceInUsdt": 1.0010761303777052,
       "poolWeight": 0.026,
       "symbol": "HUSD/USDT",
-      "apy": 20.5917560530403
+      "apy": 20.726791322655462
     },
     {
-      "totalUsdtValue": 26841019.185209922,
-      "tokenPriceInUsdt": 191.64265169046234,
+      "totalUsdtValue": 26865358.369081218,
+      "tokenPriceInUsdt": 191.48254479916943,
       "poolWeight": 0.0132,
       "symbol": "HLTC/USDT",
-      "apy": 48.49525120955476
+      "apy": 48.69432191340346
     },
     {
-      "totalUsdtValue": 34404549.68519096,
-      "tokenPriceInUsdt": 514.5623612593572,
+      "totalUsdtValue": 34407983.73215289,
+      "tokenPriceInUsdt": 514.3863819083421,
       "poolWeight": 0.0132,
       "symbol": "HBCH/USDT",
-      "apy": 37.83400683972676
+      "apy": 38.019967078760764
     },
     {
-      "totalUsdtValue": 31988211.918556355,
-      "tokenPriceInUsdt": 34.3185613742262,
+      "totalUsdtValue": 31973033.76937988,
+      "tokenPriceInUsdt": 34.295231801550564,
       "poolWeight": 0.0132,
       "symbol": "HDOT/USDT",
-      "apy": 40.691926495339374
+      "apy": 40.91542948907851
     },
     {
-      "totalUsdtValue": 25069029.844096627,
-      "tokenPriceInUsdt": 82.2535057723633,
+      "totalUsdtValue": 25066089.704587772,
+      "tokenPriceInUsdt": 82.18168390658512,
       "poolWeight": 0.0132,
       "symbol": "HFIL/USDT",
-      "apy": 51.92310895962954
+      "apy": 52.18964841187632
     },
     {
-      "totalUsdtValue": 167900242.53683388,
-      "tokenPriceInUsdt": 3.43691033542491,
+      "totalUsdtValue": 167748397.9462089,
+      "tokenPriceInUsdt": 3.4540888450039327,
       "poolWeight": 0.2804,
       "symbol": "MDX/USDT",
-      "apy": 164.68383445424033
+      "apy": 165.65961876607582
     },
     {
-      "totalUsdtValue": 86210762.42626518,
-      "tokenPriceInUsdt": 13.674869241462561,
+      "totalUsdtValue": 86275871.45152812,
+      "tokenPriceInUsdt": 13.769159405474364,
       "poolWeight": 0.0394,
       "symbol": "WHT/HUSD",
-      "apy": 45.06703854536472
+      "apy": 45.25888981166204
     },
     {
-      "totalUsdtValue": 57567883.2493824,
-      "tokenPriceInUsdt": 13.67548552798729,
+      "totalUsdtValue": 57534463.91759245,
+      "tokenPriceInUsdt": 13.769748412918004,
       "poolWeight": 0.0393,
       "symbol": "WHT/USDT",
-      "apy": 67.31883229031853
+      "apy": 67.69576634291585
     },
     {
-      "totalUsdtValue": 15374852.870717041,
-      "tokenPriceInUsdt": 0.015268436715641235,
+      "totalUsdtValue": 15376827.284584222,
+      "tokenPriceInUsdt": 0.015339131012862509,
       "poolWeight": 0.011,
       "symbol": "HPT/USDT",
-      "apy": 70.55145931327796
+      "apy": 70.89620334393757
     },
     {
-      "totalUsdtValue": 38100210.05657826,
-      "tokenPriceInUsdt": 3.4371961183851867,
+      "totalUsdtValue": 38328132.96442087,
+      "tokenPriceInUsdt": 3.454364392083466,
       "poolWeight": 0.0748,
       "symbol": "MDX/WHT",
-      "apy": 193.5969506464036
+      "apy": 193.4109075899504
     },
     {
-      "totalUsdtValue": 1214955.3364990293,
-      "tokenPriceInUsdt": 0.4085866866651463,
+      "totalUsdtValue": 1219624.7097422585,
+      "tokenPriceInUsdt": 0.4124635231552348,
       "poolWeight": 0.003,
       "symbol": "FILDA/HUSD",
-      "apy": 243.49229687025056
+      "apy": 243.77663031267565
     },
     {
-      "totalUsdtValue": 918698.1622474411,
-      "tokenPriceInUsdt": 0.3802709349111357,
+      "totalUsdtValue": 916697.1637922399,
+      "tokenPriceInUsdt": 0.38299504317045024,
       "poolWeight": 0.0013,
       "symbol": "LHB/USDT",
-      "apy": 139.5387375043023
+      "apy": 140.54470689252054
     },
     {
-      "totalUsdtValue": 6661317.353831436,
-      "tokenPriceInUsdt": 334.2165993863522,
+      "totalUsdtValue": 6664397.730522074,
+      "tokenPriceInUsdt": 333.83249097515045,
       "poolWeight": 0.0051,
       "symbol": "AAVE/USDT",
-      "apy": 75.49780690525029
+      "apy": 75.8413923981662
     },
     {
-      "totalUsdtValue": 6351730.946493857,
-      "tokenPriceInUsdt": 17.207341863023803,
+      "totalUsdtValue": 6346548.362044549,
+      "tokenPriceInUsdt": 17.19438981757733,
       "poolWeight": 0.0051,
       "symbol": "SNX/USDT",
-      "apy": 79.17760615974558
+      "apy": 79.6396993365297
     },
     {
-      "totalUsdtValue": 8707294.776461016,
-      "tokenPriceInUsdt": 30.334283817055724,
+      "totalUsdtValue": 8700925.54987751,
+      "tokenPriceInUsdt": 30.34689783031302,
       "poolWeight": 0.0051,
       "symbol": "UNI/USDT",
-      "apy": 57.75787592189025
+      "apy": 58.090050360801946
     },
     {
-      "totalUsdtValue": 8318376.767582082,
-      "tokenPriceInUsdt": 26.78751635345116,
+      "totalUsdtValue": 8317104.079007094,
+      "tokenPriceInUsdt": 26.78614532501578,
       "poolWeight": 0.0051,
       "symbol": "LINK/USDT",
-      "apy": 60.458291967982326
+      "apy": 60.77081620918139
     },
     {
-      "totalUsdtValue": 4797127.252749287,
-      "tokenPriceInUsdt": 51.505418294331854,
+      "totalUsdtValue": 4800466.583493369,
+      "tokenPriceInUsdt": 51.503527009905,
       "poolWeight": 0.0051,
       "symbol": "BAL/USDT",
-      "apy": 104.83667095258573
+      "apy": 105.28918274651524
     },
     {
-      "totalUsdtValue": 7175980.063269656,
-      "tokenPriceInUsdt": 34121.06554774181,
+      "totalUsdtValue": 7176031.897220253,
+      "tokenPriceInUsdt": 34122.96003366867,
       "poolWeight": 0.0051,
       "symbol": "YFI/USDT",
-      "apy": 70.08308926167932
+      "apy": 70.43407981140132
     },
     {
-      "totalUsdtValue": 35103983.11134597,
-      "tokenPriceInUsdt": 54572.88328864236,
+      "totalUsdtValue": 35311704.76644122,
+      "tokenPriceInUsdt": 54516.62584472082,
       "poolWeight": 0.0261,
       "symbol": "HBTC/WHT",
-      "apy": 73.31762613669662
+      "apy": 73.25189294586303
     },
     {
-      "totalUsdtValue": 27759159.65763937,
-      "tokenPriceInUsdt": 1681.5717938042765,
+      "totalUsdtValue": 27909298.166073594,
+      "tokenPriceInUsdt": 1680.791134476703,
       "poolWeight": 0.0195,
       "symbol": "ETH/WHT",
-      "apy": 69.27117929104065
+      "apy": 69.24409210923771
     },
     {
-      "totalUsdtValue": 50181396.445810035,
-      "tokenPriceInUsdt": 54572.340971696074,
+      "totalUsdtValue": 50166900.92388148,
+      "tokenPriceInUsdt": 54516.17510208237,
       "poolWeight": 0.0197,
       "symbol": "HBTC/ETH",
-      "apy": 38.71219245049705
+      "apy": 38.91759394659966
     },
     {
-      "totalUsdtValue": 24754109.23254627,
-      "tokenPriceInUsdt": 54571.805800965056,
+      "totalUsdtValue": 24945170.076423835,
+      "tokenPriceInUsdt": 54515.72655818851,
       "poolWeight": 0.0512,
       "symbol": "HBTC/MDX",
-      "apy": 203.96091076205428
+      "apy": 203.4138506585924
     },
     {
-      "totalUsdtValue": 27576107.796583347,
-      "tokenPriceInUsdt": 1681.5457966505548,
+      "totalUsdtValue": 26688876.153738856,
+      "tokenPriceInUsdt": 1680.7847830079954,
       "poolWeight": 0.0577,
       "symbol": "ETH/MDX",
-      "apy": 206.33225742670368
+      "apy": 214.26071815877873
     }
   ],
-  "time": "2021-03-24 11:54"
+  "time": "2021-03-24 12:00"
 }
