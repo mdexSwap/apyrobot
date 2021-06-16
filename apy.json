@@ -225,67 +225,25 @@
   "single": [],
   "lps": [
     {
-      "totalUsdtValue": 206240569.01093775,
-      "tokenPriceInUsdt": 40184.56916453367,
+      "totalUsdtValue": 205062784.97616374,
+      "tokenPriceInUsdt": 40211.8897857813,
       "poolWeight": 0.1881,
       "symbol": "HBTC/USDT",
-      "apy": 53.23187781668032
+      "apy": 54.88523892582528
     },
     {
-      "totalUsdtValue": 174311646.6334503,
-      "tokenPriceInUsdt": 2534.079484377611,
+      "totalUsdtValue": 174226378.5466769,
+      "tokenPriceInUsdt": 2536.562364052178,
       "poolWeight": 0.1781,
       "symbol": "ETH/USDT",
-      "apy": 59.63409095080239
+      "apy": 61.165090800012166
     },
     {
-      "totalUsdtValue": 229172307.2529269,
-      "tokenPriceInUsdt": 1.0000056535829582,
+      "totalUsdtValue": 229164611.16744328,
+      "tokenPriceInUsdt": 1.000017951423042,
       "poolWeight": 0.0684,
       "symbol": "HUSD/USDT",
-      "apy": 17.420116453038062
-    },
-    {
-      "totalUsdtValue": 11136438.075975109,
-      "tokenPriceInUsdt": 174.65248244747642,
-      "poolWeight": 0.0131,
-      "symbol": "HLTC/USDT",
-      "apy": 68.6565661569109
-    },
-    {
-      "totalUsdtValue": 13385645.520509856,
-      "tokenPriceInUsdt": 623.5126101035149,
-      "poolWeight": 0.0089,
-      "symbol": "HBCH/USDT",
-      "apy": 38.80679497821667
-    },
-    {
-      "totalUsdtValue": 12659043.926869018,
-      "tokenPriceInUsdt": 24.27541480943921,
-      "poolWeight": 0.0131,
-      "symbol": "HDOT/USDT",
-      "apy": 60.39868428710269
-    },
-    {
-      "totalUsdtValue": 16117626.025210846,
-      "tokenPriceInUsdt": 71.83705324499692,
-      "poolWeight": 0.0241,
-      "symbol": "HFIL/USDT",
-      "apy": 87.27162392003969
-    },
-    {
-      "totalUsdtValue": 51788014.50189558,
-      "tokenPriceInUsdt": 2.0337324134903145,
-      "poolWeight": 0.1335,
-      "symbol": "MDX/USDT",
-      "apy": 150.45585538324616
-    },
-    {
-      "totalUsdtValue": 6826811.087167882,
-      "tokenPriceInUsdt": 13.958823131205563,
-      "poolWeight": 0,
-      "symbol": "WHT/HUSD",
-      "apy": 0
+      "apy": 17.8592067166764
     }
   ],
   "time": "2021-05-19 14:07"
