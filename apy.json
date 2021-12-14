@@ -225,11 +225,32 @@
   "single": [],
   "lps": [
     {
-      "totalUsdtValue": 82420693.6819146,
-      "tokenPriceInUsdt": 47246.212889182316,
+      "totalUsdtValue": 83331840.91614018,
+      "tokenPriceInUsdt": 47251.68586343731,
       "poolWeight": 0.3239,
       "symbol": "HBTC/USDT",
-      "apy": 44.3945300097529
+      "apy": 43.92522212596454
+    },
+    {
+      "totalUsdtValue": 72381634.41422242,
+      "tokenPriceInUsdt": 3816.141466656226,
+      "poolWeight": 0.315,
+      "symbol": "ETH/USDT",
+      "apy": 49.18086498469448
+    },
+    {
+      "totalUsdtValue": 33239036.236848406,
+      "tokenPriceInUsdt": 1.0000899885670935,
+      "poolWeight": 0.0579,
+      "symbol": "HUSD/USDT",
+      "apy": 19.685395072898736
+    },
+    {
+      "totalUsdtValue": 1787800.168127811,
+      "tokenPriceInUsdt": 149.2241689429373,
+      "poolWeight": 0.0088,
+      "symbol": "HLTC/USDT",
+      "apy": 55.62598224227082
     }
   ],
   "time": "2021-05-19 14:07"
