@@ -176,7 +176,7 @@ const coins = [
     islp: true
   },
 ]
-const hecoAddress = 'https://http-mainnet-node.huobichain.com'
+const hecoAddress = 'https://http-mainnet.hecochain.com'
 
 const web3 = require('web3')
 const low = require('lowdb')
@@ -198,7 +198,7 @@ const orcalContract = new provider.eth.Contract(oracleAbi, oracleAddress)
 const chefContract = new provider.eth.Contract(chefAbi, chefAddress)
 //
 const BLOCKS_PER_YEAR = 10512000
-const SUSHI_PER_BLOCK = 27.3
+const SUSHI_PER_BLOCK = 0.625
 
 const getPoolWeight = async (pid) => {
   const { allocPoint } = await chefContract.methods.poolInfo(pid).call();
